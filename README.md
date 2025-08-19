@@ -5,8 +5,7 @@ This is a machine learning project that detects fraudulent credit card transacti
 It uses transaction data to classify whether a transaction is fraudulent or non-fraudulent.
 
 ### Dataset
-- The dataset used contains anonymized credit card transactions from Kaggle
-  **[Credit Card Fraud Detection]((https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download))**
+- The dataset used contains anonymized credit card transactions from Kaggle **[Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)**
 - Features include transaction amount, time, and anonymized attributes (V1, V2, … V28)
 - The dataset is highly imbalanced, with far fewer fraudulent transactions than non-fraudulent transactions.
 
