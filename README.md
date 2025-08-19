@@ -1,19 +1,20 @@
 # Credit Card Fraud Detection 
 
-</header>
-
 ### Overview
 This is a machine learning project that detects fraudulent credit card transactions. 
 It uses transaction data to classify whether a transaction is fraudulent or non-fraudulent.
 
 ### Dataset
-- The dataset contains anonymized credit card transactions from Kaggle 
-- Features include transaction amount, time, and anonymized attributes (V1, V2, …)
-- The dataset is imbalanced with far fewer fraud cases than legitimate transactions
+- The dataset used contains anonymized credit card transactions from Kaggle
+  **[Credit Card Fraud Detection]((https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download))**
+- Features include transaction amount, time, and anonymized attributes (V1, V2, … V28)
+- The dataset is highly imbalanced, with far fewer fraudulent transactions than non-fraudulent transactions.
 
 ## Features
-- Performed feature engineering
-- Trained machine learning models using Random Forest, XGBoost, and Logistic Regression
-- Evaluated model performance using metrics like accuracy, precision, F1-score, and ROC-AUC
-- Provided a confusion matrix for visualisation
+- Data cleaning & preparation
+- Exploratory Data Analysis (EDA) with visualizations
+- Feature engineering for better model performance
+- Training machine learning models using Random Forest, XGBoost, and Logistic Regression
+- Model evaluation using metrics: Accuracy, Precision, F1-score, ROC-AUC
+- Confusion matrix for performance visualization
 
